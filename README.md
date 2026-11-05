@@ -11,6 +11,7 @@ A collection of software I’ve built: website tools, games and their editors, w
 | Project | Purpose | Platform |
 | --- | --- | --- |
 | [WDM](#wdm--web-design-machine) | Build, edit, and publish business websites | Desktop-hosted web app + cloud services |
+| [Prime Time Certified](#prime-time-certified) | An automotive website with service discovery and appointment requests | Responsive website on Cloudflare Pages |
 | [Manifest](#manifest-card-game) | Card battles, player progression, and card creation | Browser + Node.js server |
 | [Avashalon + Creator](#avashalon-and-creator) | An online RPG and the tools used to author its world | Java desktop client, server, and editor |
 | [Pallit](#pallit) | Inventory, people, and warehouse operations | Desktop and mobile browsers on a local network |
@@ -36,6 +37,37 @@ WDM brings reusable business templates, visual page controls, saved projects, an
 **Status:** Working local application with hosted components. This is a project showcase; the application source is not released here.
 
 [Explore website examples](https://dataarchitectpro.com/work) · [Read about visual editing](https://dataarchitectpro.com/blog/custom-cms-visual-editor-workflow)
+
+## Prime Time Certified
+
+**An automotive website that connects a distinctive visual identity to practical customer actions.**
+
+Built for Prime Time Auto Care in Beaumont, the site brings service information, vehicle intake, appointment requests, and contact details into one responsive experience. It is a public example of the websites I build with WDM.
+
+![Prime Time Certified website on desktop](primetimecertified-desktop.webp)
+
+<details>
+<summary>See the mobile layout</summary>
+
+<img src="primetimecertified-mobile.webp" alt="Prime Time Certified mobile website with call and booking controls" width="260">
+
+</details>
+
+*Desktop and mobile captures from the site's October 2026 portfolio gallery.*
+
+- Automotive branding, a photographic hero, service carousels, and light/dark appearance controls.
+- Service and tire catalogs with a cart for planning a request.
+- Vehicle-detail intake and preferred appointment dates/times, subject to shop confirmation.
+- Mobile navigation, tap-to-call links, business hours, and directions.
+- Dedicated service, pricing, about, contact, and booking pages.
+
+**Design and engineering focus:** carrying a consistent brand across screen sizes while making it easy to move from browsing services to contacting the shop.
+
+**Stack:** HTML, CSS, JavaScript, WDM, Cloudflare Pages.
+
+**Status:** Live public website. Service requests, availability, fitment, and final pricing are confirmed by the shop.
+
+**[Visit Prime Time Certified →](https://primetimecertified.pages.dev/)**
 
 ## Manifest Card Game
 
@@ -174,6 +206,6 @@ I publish longer explanations on the Data Architect blog. These articles show ho
 
 I combine product direction, interface design, AI-assisted development, hands-on review, and iterative testing. These projects reflect a recurring interest: building the tools around the main experience, including editors, admin screens, persistence, and update workflows.
 
-This repository is a curated showcase with project descriptions and selected screenshots. Release status is stated per project; application source releases are separate from this portfolio. Screenshots are development or demonstration captures, not customer records.
+This repository is a curated showcase with project descriptions and selected screenshots. Release status is stated per project; application source releases are separate from this portfolio. Screenshots are development, demonstration, or public website captures, not customer records.
 
 [Discuss a project](https://dataarchitectpro.com/contact) · [Visit Data Architect](https://dataarchitectpro.com/)
