@@ -2,7 +2,7 @@
 
 ### From business workflows to multiplayer worlds.
 
-A collection of software I’ve built: website tools, games and their editors, warehouse operations, mobile business research, and hiring workflows. Each project shows a different part of turning an idea into a usable system.
+A collection of software I’ve built: website tools, educational games, multiplayer worlds and their editors, warehouse operations, mobile business research, and hiring workflows. Each project shows a different part of turning an idea into a usable system.
 
 [GitHub profile](https://github.com/e36shayne) · [Data Architect — my website](https://dataarchitectpro.com/) · [Contact](https://dataarchitectpro.com/contact)
 
@@ -10,6 +10,7 @@ A collection of software I’ve built: website tools, games and their editors, w
 
 | Project | Purpose | Platform |
 | --- | --- | --- |
+| [Math Kingdom](#math-kingdom) | Teach and practice foundational math through dragon adventures for grades K–4 | Responsive browser game with parent accounts |
 | [WDM](#wdm--web-design-machine) | Build, edit, and publish business websites | Desktop-hosted web app + cloud services |
 | [Prime Time Certified](#prime-time-certified) | An automotive website with service discovery and appointment requests | Responsive website on Cloudflare Pages |
 | [Manifest](#manifest-card-game) | Card battles, player progression, and card creation | Browser + Node.js server |
@@ -17,6 +18,41 @@ A collection of software I’ve built: website tools, games and their editors, w
 | [Pallit](#pallit) | Inventory, people, and warehouse operations | Desktop and mobile browsers on a local network |
 | [Finder Local](#finder-local--desktop-and-android) | Research local businesses and organize prospects | Desktop app + separate Android app |
 | [Hire](#data-architect-hire) | Publish applications and manage hiring responses | Hosted web app |
+
+## Math Kingdom
+
+**A free math learning game for children in kindergarten through fourth grade.**
+
+Math Kingdom turns addition, subtraction, multiplication, and division into dragon adventures. It started with a practical goal: make multiplication easier to understand and give children a reason to keep practicing. Short, interactive lessons lead into exploration, flying challenges, platforming, and boss battles.
+
+[![Math Kingdom — addition, subtraction, multiplication, and division with a dragon companion](https://playmathkingdom.pages.dev/assets/share-math-kingdom-v1.png)](https://playmathkingdom.pages.dev/)
+
+**[Play Math Kingdom →](https://playmathkingdom.pages.dev/)**
+
+[Read the codebase walkthrough →](mathkingdom-codebase.md) — JavaScript, HTML/CSS, SVG animation, game physics, accounts, saves, and deployment.
+
+- **Teaching before practice:** concrete stories, pictures, step-by-step calculations, optional read-aloud, and examples that update together when a learner tries a different number.
+- **Three ways to play:** build a Treasure Trail, fly and shoot answer targets in Sky Flight, or run and jump through math doors in Dragon Jump. Each completed qualifying round leads to a boss battle.
+- **Progress with a purpose:** sequential worlds, gems earned through play, dragon accessories, and fire, ice, and lightning upgrades. Math questions are untimed, with hints and retries available.
+- **Parent-managed saves:** email-link sign-in, separate learner profiles, progress tracking, and saves across devices. Guest play is also available.
+- **Designed for touch and keyboard:** responsive phone, tablet, and desktop layouts, enlarged touch controls, and independent movement, jump, and fire inputs.
+- **Original presentation:** animated SVG dragons and bosses, selectable color themes, sound effects, and reduced-motion support.
+
+**Current learning range:** addition with totals through 20, subtraction with positive answers through 10, multiplication tables 1–10, and exact division with divisors and answers 1–10. K–4 is the intended audience; this release focuses on foundational arithmetic rather than a complete grade-by-grade curriculum.
+
+**Roadmap:**
+
+- Extend the multiplication tables and adventure map through 11s and 12s.
+- Follow with multi-digit arithmetic, clear place-value explanations, and worked examples.
+- Expand dragon customization so children have more ways to make their companion their own.
+
+These additions are planned for future releases.
+
+**Engineering focus:** connecting understandable lessons to game rules, smooth multi-touch controls, per-learner progress, secure parent sessions, and repeatable deployments. The November 2026 control update passed 45 automated tests covering arithmetic, progression, account access, saves, input handling, platform physics, and WDM integration, alongside browser checks at phone and tablet sizes.
+
+**Stack:** JavaScript, HTML/CSS, SVG, Node.js tooling, Cloudflare Pages/Workers, D1, Brevo transactional email, and WDM publishing.
+
+**Status:** Live and free to play, with no real-money purchases. Actively improved through hands-on playtesting and parent feedback. This entry showcases the product; application source is maintained separately.
 
 ## WDM — Web Design Machine
 
